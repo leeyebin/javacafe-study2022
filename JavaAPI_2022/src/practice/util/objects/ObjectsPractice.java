@@ -20,9 +20,9 @@ public class ObjectsPractice {
 		String b = new String("apple");
 		
 		System.out.println("Objects.isNull(a) : " + Objects.isNull(a));
-		System.out.println("Objects.isNull(b)" + Objects.isNull(b));
-		System.out.println("Objects.nonNull(a)" + Objects.nonNull(a));
-		System.out.println("Objects.nonNull(b)" + Objects.nonNull(b));
+		System.out.println("Objects.isNull(b) : " + Objects.isNull(b));
+		System.out.println("Objects.nonNull(a) : " + Objects.nonNull(a));
+		System.out.println("Objects.nonNull(b) : " + Objects.nonNull(b));
 		
 	}
 
