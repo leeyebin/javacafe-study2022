@@ -1,4 +1,4 @@
-package practice.util.exception;
+package practice.exception;
 
 import java.io.IOException;
 

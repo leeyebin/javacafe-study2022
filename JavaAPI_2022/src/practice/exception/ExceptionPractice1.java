@@ -1,4 +1,4 @@
-package practice.util.exception;
+package practice.exception;
 
 public class ExceptionPractice1 {
 
