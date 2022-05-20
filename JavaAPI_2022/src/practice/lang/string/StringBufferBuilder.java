@@ -1,5 +1,8 @@
 package practice.lang.string;
 
+import java.util.Arrays;
+import java.util.Objects;
+
 public class StringBufferBuilder {
 
 	public static void main(String[] args) {
@@ -27,7 +30,7 @@ public class StringBufferBuilder {
 		
 		String result = sb2.toString();//String형으로
 		System.out.println(result);		
-
+		
 	}
 
 }
