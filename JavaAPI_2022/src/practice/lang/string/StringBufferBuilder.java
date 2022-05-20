@@ -3,8 +3,8 @@ package practice.lang.string;
 public class StringBufferBuilder {
 
 	public static void main(String[] args) {
-		StringBuilder sb = new StringBuilder();
-		StringBuffer sb2 = new StringBuffer();
+		StringBuilder sb2 = new StringBuilder();
+		//StringBuffer sb = new StringBuffer();
 
 		sb2.append("Java "); //append 문자열 추가
 		sb2.append("Program Study");
