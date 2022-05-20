@@ -6,26 +6,26 @@ public class StringBufferBuilder {
 		StringBuilder sb = new StringBuilder();
 		StringBuffer sb2 = new StringBuffer();
 
-		sb2.append("Java ");
+		sb2.append("Java "); //append 문자열 추가
 		sb2.append("Program Study");
 		System.out.println(sb2.toString());
 		
-		sb2.insert(4, "2");
+		sb2.insert(4, "2");//index에 삽입
 		System.out.println(sb2.toString());
 
-		sb2.setCharAt(4, '6');
+		sb2.setCharAt(4, '6');//문자 교체
 		System.out.println(sb2.toString());
 		
-		sb2.replace(6, 13, "Book");
+		sb2.replace(6, 13, "Book");//문장 교체
 		System.out.println(sb2.toString());
 		
-		sb2.delete(4, 5);
+		sb2.delete(4, 5);//매개 변수로 전달받은 인덱스 사이의 문자열 제거
 		System.out.println(sb2.toString());
 		
-		int length = sb2.length();
+		int length = sb2.length();//길이
 		System.out.println("총문자수: " + length);
 		
-		String result = sb2.toString();
+		String result = sb2.toString();//String형으로
 		System.out.println(result);		
 
 	}
